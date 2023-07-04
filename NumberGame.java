@@ -166,20 +166,24 @@ public class NumberGame {
 
         System.out.println(" \nEnter your choice");
         choice = sc.nextInt();
-        switch (choice) {
-            case 1 -> {
+      switch (choice)
+        {
+            case 1 : 
                 n.print_board_single_player();
                 System.out.println("Enter the number of rounds:");
                 n.rounds = sc.nextInt();
                 n.start_game_single_player(n.rounds);
-            }
-            case 2 -> {
+                break;
+            
+            case 2 :
                 n.print_board_multiplayer();
                 System.out.println("Enter the number of rounds:");
                 n.rounds = sc.nextInt();
                 n.start_game_multiplayer(n.rounds);
-            }
-            default -> System.out.println("\n Enter the correct choice");
+                break;
+            
+            default :
+                System.out.println("\n Enter the correct choice");
         }
 
 
