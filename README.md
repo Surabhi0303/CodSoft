@@ -1,4 +1,6 @@
-# CodSoft Virtual Internship task 1
+#Number Guessing Game
+
+CodSoft Virtual Internship task 1
 
 Problem Statment
 1. Generate a random number within a specified range, such as 1 to 100.
